@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar';
 import Onea from './Components/Onea';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <Navbar/>
       <Onea/>
     </div>
   );
